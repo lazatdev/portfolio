@@ -48,21 +48,23 @@ window.onload = function(){
     let imgs = document.querySelectorAll(".item-img img");
     let titles = document.querySelectorAll(".item-details h3");
     let allModalBox = document.querySelectorAll(".modal-box");
-
+    let modalOverlay;
+    
     imgs.forEach(function(img){
         img.addEventListener("click", showModalOverlay);
         img.addEventListener("click", showModal);
     });
-
+    
     titles.forEach(function(title){
         title.addEventListener("click", showModalOverlay);
         title.addEventListener("click", showModal);
     });
-
+    
     document.addEventListener("click", function(e){
-        if(e.target.classList.contains("modal-overlay"))
+        if(e.target.classList.contains("modal-overlay") || e.target.classList.contains("close"))
         {
-            e.target.classList.remove("show");
+            modalOverlay = document.querySelector(".modal-overlay");
+            modalOverlay.remove();
             allModalBox.forEach(function(modalBox){
                 modalBox.classList.remove("show");
             });
