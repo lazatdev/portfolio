@@ -634,15 +634,13 @@ header .nav-menu li a
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    width: 60px;
-    height: 23px;
     line-height: 23px;
     background-color: #a3c1e2;
     color: #fff;
     border-radius: 2px;
     font-size: 15px;
     font-weight: 300;
-    /* cursor: pointer; */
+    padding: 1px 8px;
 }
 
 .portfolio .items .item .item-details .item-skills .skill::selection
