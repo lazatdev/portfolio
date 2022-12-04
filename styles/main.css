@@ -523,9 +523,8 @@ header .nav-menu li a
 
 .portfolio .filter .category
 {
-    width: 100px;
     text-align: center;
-    padding:  2px 5px;
+    padding: 2px 18px;
     background-color: #a3c1e2;
     font-size: 23px;
     font-weight: 300;
