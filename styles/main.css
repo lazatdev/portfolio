@@ -629,7 +629,8 @@ header .nav-menu li a
     font-weight: 300;
 }
 
-.portfolio .items .item .item-details .item-skills .skill
+.portfolio .items .item .item-details .item-skills .skill,
+.modal-box .details .skills .skill
 {
     display: inline-block;
     text-align: center;
@@ -1032,21 +1033,6 @@ footer .social-media i:hover
     right: 0;
     top: 0;
 
-}
-
-.modal-box .details .skills .skill
-{
-    display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    width: 60px;
-    height: 23px;
-    line-height: 23px;
-    background-color: #a3c1e2;
-    color: #fff;
-    border-radius: 2px;
-    font-size: 15px;
-    font-weight: 300;
 }
 
 @media (max-width : 767px)
