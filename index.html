@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Html, Css, Flexbox, Grid, Sass, Javascript, JQuery, React">
+    <meta name="description" content="My Portfolio Website">
+    <meta name="author" content="Mohammed Adam Lazazat">
+    <title>LazatDEV</title>
+    <link rel="icon" type="image/png" href="images/logo-icon.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/fontawesome.min.css"> 
+    <link rel="stylesheet" href="styles/brands.min.css"> 
+    <link rel="stylesheet" href="styles/solid.min.css"> 
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><img src="images/logo-lazatdev.png" alt="lazatdev-logo"></a>
+            </div>
+            <div class="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <div class="close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li class="active"><a href="#home">HOME</a></li>
+                    <li class=""><a href="#about">ABOUT</a></li>
+                    <li class=""><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class=""><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Landing -->
+    <section class="landing">
+        <div class="container">
+            <div class="intro-section">
+                <div class="intro">
+                    <h1 class="title">Hello, I am <br>
+                        <span>Mohammed Adam LAZAZAT</span></h1>
+                    <p class="text">
+                        A Frontend Developer with 2 years of experience working with HTML/CSS, JavaScript.
+                        Passion for maintaining and building web pages.
+                        I am currently looking for a job.
+                    </p>
+                    <div class="more-info">
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="scroll-top">
+                <i class="fas fa-angle-up"></i>
+            </div>
+            <div class="special-heading">
+                <h2>ABOUT</h2>
+                <div class="shapes">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <p>
+                    A brief personal introduction
+                </p>
+            </div>
+            <div class="about-info">
+                <div class="about-img">
+                    <img src="images/about-img-logo.png" alt="about-img">
+                </div>
+                <div class="details">
+                    <h3>Who I Am ?</h3>
+                    <p>
+                        BAC+2 Diploma holder at ISTA in IT Developement.
+                        As a Frontend Developer i was building web pages during which i improved my technical knowledge.
+                        Now, i am seeking for new opportunities, so that I can put into practice my frontend developement skills.
+                    </p>
+                    <h4>My Skills</h4>
+                    <p>
+                        I master many skills
+                    </p>
+                    <div class="skills">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-sass"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-react"></i>
+                        <i class="fab fa-git"></i>
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seperator -->
+    <div class="seperator"></div>
+    <!-- Portfolio  -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="special-heading">
+                <h2>PORTFOLIO</h2>
+                <div class="shapes">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <p>
+                    A set of works including challenge, personal and real projects
+                </p>
+            </div>
+            <div class="filter">
+                <div class="category active" data-category=".html">html</div>
+                <div class="category" data-category=".css">css</div>
+                <div class="category" data-category=".sass">sass</div>
+                <div class="category" data-category=".js">js</div>
+                <div class="category" data-category=".jquery">jquery</div>
+                <div class="category" data-category=".bootstrap">bootstrap</div>
+            </div>
+            <div class="items">
+                <div class="item item1 html css">
+                    <div class="item-type">Challenge</div>
+                    <div class="item-img">
+                        <img src="images/portfolio/qr-code-component.png" alt="project-img" data-item=".item1">
+                    </div>
+                    <div class="item-details">
+                        <h3 data-item=".item1">QR Code Component</h3>
+                        <p>
+                            This my first challenge, i built a simple component using languages below.
+                        </p>
+                        <div class="item-skills">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                        </div>
+                    </div>
+                    <div class="modal-box">
+                        <div class="close">X</div>
+                        <img src="images/portfolio/qr-code-component.png" alt="qr-code-component-img">
+                        <h4>QR Code Component</h4>
+                        <p>
+                            This my first challenge, i built a simple component using languages below.
+                        </p>
+                        <div class="details">
+                            <div class="url">
+                                <span class="label">LIVE</span>
+                                <a href="https://lazatdev.github.io/QR-Code-Component" target="_blank">Click Here</a>
+                            </div>
+                            <div class="code-source">
+                                <span class="label">Github</span>
+                                <a href="https://github.com/lazatdev/QR-Code-Component" target="_blank">Click Here</a>
+                            </div>
+                            <div class="ui-design">
+                                <span class="label">UI Design</span>
+                                <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank">Click Here</a>
+                            </div>
+                            <div class="modal-skills">
+                                <span class="label">Skills</span>
+                                <div class="skills">
+                                    <span class="skill">HTML</span>
+                                    <span class="skill">CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item2 html css">
+                    <div class="item-type">Challenge</div>
+                    <div class="item-img">
+                        <img src="images/portfolio/product-preview-card-component.png" alt="project-img" data-item=".item2">
+                    </div>
+                    <div class="item-details">
+                        <h3 data-item=".item2">Product Preview Card Component</h3>
+                        <p>
+                            This my second challenge, i built a simple component using languages below.
+                        </p>
+                        <div class="item-skills">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                        </div>
+                    </div>
+                    <div class="modal-box">
+                        <div class="close">X</div>
+                        <img src="images/portfolio/product-preview-card-component.png" alt="qr-code-component-img">
+                        <h4>Product Preview Card Component</h4>
+                        <p>
+                            This my second challenge, i built a simple component using languages below.
+                        </p>
+                        <div class="details">
+                            <div class="url">
+                                <span class="label">LIVE</span>
+                                <a href="https://lazatdev.github.io/Product-Preview-Card-Component/" target="_blank">Click Here</a>
+                            </div>
+                            <div class="code-source">
+                                <span class="label">Github</span>
+                                <a href="https://github.com/lazatdev/Product-Preview-Card-Component" target="_blank">Click Here</a>
+                            </div>
+                            <div class="ui-design">
+                                <span class="label">UI Design</span>
+                                <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">Click Here</a>
+                            </div>
+                            <div class="modal-skills">
+                                <span class="label">Skills</span>
+                                <div class="skills">
+                                    <span class="skill">HTML</span>
+                                    <span class="skill">CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item3 html css sass bootstrap jquery">
+                    <div class="item-type">Challenge</div>
+                    <div class="item-img">
+                        <img src="images/portfolio/bookmark-landing-page-master.png" alt="project-img" data-item=".item3">
+                    </div>
+                    <div class="item-details">
+                        <h3 data-item=".item3">Bookmark Landing Page Master</h3>
+                        <p>
+                            This my Third challenge, i built a landing page using languages below.
+                        </p>
+                        <div class="item-skills">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">SASS</span>
+                            <span class="skill">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="modal-box">
+                        <div class="close">X</div>
+                        <img src="images/portfolio/bookmark-landing-page-master.png" alt="qr-code-component-img">
+                        <h4>Bookmark Landing Page Master</h4>
+                        <p>
+                            This my Third challenge, i built a landing page using languages below.
+                        </p>
+                        <div class="details">
+                            <div class="url">
+                                <span class="label">LIVE</span>
+                                <a href="https://lazatdev.github.io/Bookmark-Landing-Page-Master/" target="_blank">Click Here</a>
+                            </div>
+                            <div class="code-source">
+                                <span class="label">Github</span>
+                                <a href="https://github.com/lazatdev/Bookmark-Landing-Page-Master" target="_blank">Click Here</a>
+                            </div>
+                            <div class="ui-design">
+                                <span class="label">UI Design</span>
+                                <a href="https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158" target="_blank">Click Here</a>
+                            </div>
+                            <div class="modal-skills">
+                                <span class="label">Skills</span>
+                                <div class="skills">
+                                    <span class="skill">HTML</span>
+                                    <span class="skill">CSS</span>
+                                    <span class="skill">SASS</span>
+                                    <span class="skill">Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seperator -->
+    <div class="seperator"></div>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="special-heading">
+                <h2>CONTACT ME</h2>
+                <div class="shapes">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <p>
+                    Get in touch with me
+                </p>
+            </div>
+            <div class="contact-info">
+                <div class="info">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>Whatsapp</h3>
+                    <p>+212 641 813 652</p>
+                </div>
+                <div class="info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Casablanca, Morocco</p>
+                </div>
+                <div class="info">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>lazatdev@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="text">
+                Made With <i class="fas fa-heart"></i> By <span class="logo"><span>LAZAT</span>DEV</span> &copy; 2022
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/lazatdev" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/lazazat-mohammed-adam" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
